@@ -1,0 +1,8 @@
+// Signing settings for all targets.
+//
+// To build, copy Local.xcconfig.example to Local.xcconfig in this folder and set your own team ID.
+// Local.xcconfig is gitignored, so it stays out of the repo.
+
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

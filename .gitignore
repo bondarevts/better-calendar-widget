@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode build output (this repo's local derived data lives in build/)
+build/
+DerivedData/
+*.xcarchive
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Per-developer signing settings (see Config/Local.xcconfig.example)
+Config/Local.xcconfig
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
