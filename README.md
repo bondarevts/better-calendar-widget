@@ -2,6 +2,10 @@
 
 A small macOS desktop/Notification Center widget that shows a month calendar, styled after the stock macOS Calendar widget, but navigable.
 
+<p align="center">
+  <img src="docs/images/widget.png" alt="Better Calendar widget showing October with today, the 31st, highlighted" width="300">
+</p>
+
 ## Features
 
 - **Month grid** with weeks starting on Monday, always showing at least one day of the previous and next month.
@@ -30,6 +34,7 @@ A small macOS desktop/Notification Center widget that shows a month calendar, st
 | `CalendarWidget/` | WidgetKit extension: timeline provider, interactive widget view, and the App Intent that changes months. |
 | `Shared/` | Code used by both targets: `MonthGrid` (calendar math) and `MonthView` (the SwiftUI layout). |
 | `Config/` | Build settings: `Signing.xcconfig` (tracked) pulls in your own `Local.xcconfig` (gitignored). |
+| `docs/images/` | Screenshots used in this README. |
 
 ## License
 
